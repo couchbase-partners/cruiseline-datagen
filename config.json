@@ -1,5 +1,5 @@
 {
-    "couchbaseAddress": "52.38.233.125",
+    "couchbaseAddress": "52.36.253.67",
     "couchbaseUser": "Administrator",
     "couchbasePassword": "password",
     "targetBucket": "commerce",

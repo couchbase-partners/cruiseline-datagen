@@ -144,6 +144,7 @@ for i in range(config['numVoyages']):
         reservation = {}
         reservation['type'] = 'reservation'
         reservation['reservationId'] = 'res:' + customer['customerId']
+        reservation['customerId'] = customer['customerId']
         reservation['reservationType'] = choice(reservationTypes)
         reservation['status'] = choice(reservationStatuses)
         # make sure the reservation is not after the voyage's start date
