@@ -14,7 +14,7 @@ Credits - Each Customer makes between X and Y purchases per voyage (i.e. 3 - 10)
 
 ## Running
 
-### Setting up a virtual environments (optional, recommended)
+### Setting up a virtual environment (optional, recommended)
 
 ```
 python3 -m venv env
