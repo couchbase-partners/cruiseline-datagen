@@ -14,8 +14,7 @@ Credits - Each Customer makes between X and Y purchases per voyage (i.e. 3 - 10)
 
 ## Running
 
-
-### Setting up a virtual environments (recommended)
+### Setting up a virtual environments (optional, recommended)
 
 ```
 python3 -m venv env
@@ -60,14 +59,6 @@ Config informaiton is located in `config.json`. An example:
 - `maxVoyageDays` - The longest durtation that a voyage can be
 - `minCreditsPerCustomer` - The minimum number of purchases a customer can make
 - `maxCreditsPerCustomer` - The maximum number of purchases a customer can make
-
-
-
-## Configuration
-
-```
-
-```
 
 
 ### Sources
