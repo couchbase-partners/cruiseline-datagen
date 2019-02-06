@@ -1,0 +1,13 @@
+{
+    "couchbaseAddress": "52.38.233.125",
+    "couchbaseUser": "Administrator",
+    "couchbasePassword": "password",
+    "targetBucket": "commerce",
+    "numVoyages" : 10,
+    "customersPerVoyage": 3500,
+    "voyagesFromDate": "2018-01-01",
+    "minVoyageDays": 3,
+    "maxVoyageDays": 14,
+    "minCreditsPerCustomer": 1,
+    "maxCreditsPerCustomer": 15
+}
