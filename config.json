@@ -1,9 +1,9 @@
 {
-    "couchbaseAddress": "52.36.253.67",
+    "couchbaseAddress": "52.43.1.216",
     "couchbaseUser": "Administrator",
     "couchbasePassword": "password",
     "targetBucket": "commerce",
-    "numVoyages" : 10,
+    "numVoyages" : 50,
     "customersPerVoyage": 3500,
     "voyagesFromDate": "2018-01-01",
     "minVoyageDays": 3,
