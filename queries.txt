@@ -1,0 +1,23 @@
+
+--get credit usage per customer--
+select re.reservationId, cu.firstName, cu.lastName, sum(cr.amount)
+from reservations re 
+join customers cu on cu.customerId = re.customerId 
+join credits cr on cr.reservationId = re.reservationId
+group by re.reservationId, cu.firstName, cu.lastName
+limit 100
+
+--get credit usage and reservation count by voyage--
+select vo.voyageId,
+  sh.name as `shipName`,
+  count(re.reservationId) as `numReservations`,
+  sum(cr.amount) as `totalRevenue`
+from voyages vo
+inner join ships sh on sh.shipId = vo.shipId
+inner join reservations re on re.voyageId = vo.voyageId
+inner join credits cr on cr.reservationId = re.reservationId
+group by vo.voyageId, sh.name
+
+
+
+
