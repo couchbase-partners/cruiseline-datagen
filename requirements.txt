@@ -12,7 +12,7 @@ mccabe==0.6.1
 pyasn1==0.4.5
 pylint==2.2.2
 python-dateutil==2.7.5
-PyYAML==3.13
+PyYAML==5.4
 rsa==3.4.2
 s3transfer==0.1.13
 six==1.12.0
